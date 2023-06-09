@@ -1,0 +1,21 @@
+{
+  "name": "hotel-mg",
+  "version": "0.0.1",
+  "description": "Hotel Management extra products and services SaaS. Developed with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "setupDb": "docker-compose -f docker-compose.test.yml up -d --renew-anon-volumes",
+    "teardownDb": "docker-compose -f docker-compose.test.yml down -v",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarsanzsanchez/hotel-mg.git"
+  },
+  "author": "Oscar Sanz Sanchez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oscarsanzsanchez/hotel-mg/issues"
+  },
+  "homepage": "https://github.com/oscarsanzsanchez/hotel-mg#readme"
+}
